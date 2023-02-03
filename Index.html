@@ -1,0 +1,71 @@
+<!DOCTYPE <html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style_encrypter.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Encriptador de Texto</title>
+
+    </head>
+
+    <body>
+        <header>
+            <h1 class="main-title">Encriptador de Texto</h1>
+            <img src="Images/Logo.png" alt="Logo de Alura" class="logo"> 
+        </header>
+
+        <div class="h-divider">
+        <div class="shadow"></div>
+        </div>
+        
+    <main>
+        <section class="left_section">
+
+            <textarea class="text_area" id="entered_text" cols="30" rows="10" placeholder="Ingrese el texto a encriptar aquí"></textarea>
+                
+            <div class="div-textarea">
+                <h6 class="info-textarea">❗Solo letras minúsculas y sin acentos.
+                </h6>
+            </div>
+
+            <div class="buttons">
+                <button class="button_encrypt" id="encrypt-function" onclick="encrypt()">Encriptar</button>
+                <button class="button_decrypt" id="decrypt-function" onclick="decrypt()">Desencriptar</button>
+                <button class="button_clean" id="clear-button" onclick="clearIt()" onClick="window.location.reload()">Limpiar</button>
+            </div>
+        </section>
+
+        <section class="right_section">
+
+            <textarea class="text_area2" id="result" placeholder="El resultado de la encriptación/desencriptación aparecerá aquí" cols="30" rows="10" readonly></textarea>
+
+            <div class="button_textarea2" id="copy-function" onclick="copy()">
+                <button class="button_copy">Copiar</button>
+            </div>
+        </section>
+    </main>
+</div>
+<div class="h-divider">
+<div class="shadow"></div>
+</div>
+    <footer>
+        <a href="https://www.linkedin.com/in/brian-carvajal-lopez-1475a8160"> <img src="Images/linkedin logo.png" alt="Logo Linkedin" class="logo-linkedin"></a></img>
+        <p class="footer_text">&copy Desarrollado por Brian Carvajal Lopez - 2023</p>
+    
+    </footer>
+    </body>
+    <!--<script>
+        var button_encrypt = document.querySelector("#encrypt-function");
+        button_encrypt.onclick = encrypt;
+        var button_decrypt = document.querySelector("#decrypt-function");
+        button_decrypt.onclick = decrypt;
+        var button_copy = document.querySelector("#copy-function");
+        button_copy.onclick = copy;
+    </script>-->
+</html>

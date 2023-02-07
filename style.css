@@ -357,7 +357,7 @@ footer{
 @media screen and (max-width: 480px) {
 
     * {
-        padding: 2% 0%;
+
     }
 
     header {
@@ -366,17 +366,20 @@ footer{
     }
 
     body {
-        
+        display: flex;
+        flex-wrap: wrap;
     }
 
     main{
-        width: auto;
-        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
-    .text_area, .text_area2, .button_textarea2, .buttons, .button_copy{
-        width: 70%;
+    .text_area, .text_area2, .button_textarea2, .buttons, .button_copy,.main-title{
+        width: auto;
         text-align: center;
+        align-items: center;
     }
 
     .footer {
@@ -385,6 +388,7 @@ footer{
     }    
     
     .logo-linkedin, .footer_text {
-        padding-left: 13%;
+        justify-content: center;
     }
+ 
 }

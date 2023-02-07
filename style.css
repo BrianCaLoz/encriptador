@@ -353,3 +353,38 @@ footer{
     border-radius: 125px/12px;
     box-shadow: 0 0 8px black;
 }
+
+@media screen and (max-width: 480px) {
+
+    * {
+    
+        padding: 2% 0%;
+    }
+    header {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        
+    }
+
+    main{
+        height: 100%;
+        width: 100%;
+    }
+
+    .text_area{
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer {
+        text-align: center;
+        padding-left: 50%;
+    }    
+    
+    .logo-linkedin, .footer_text {
+        padding-left: 13%;
+    }
+}

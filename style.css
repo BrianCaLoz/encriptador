@@ -53,7 +53,7 @@ main{
         background-color: rgba(0, 0, 0, .25);
         color: white;
 
-        position: relative;
+        /*position: relative;*/
         width: 800px;
         height: 300px;
         outline: none;
@@ -237,7 +237,7 @@ main{
         background-color: rgba(0, 0, 0, .25);
         color: white;
 
-        position: relative;
+        /*position: relative*/
         width: 450px;
         height: 500px;
         outline: none;
@@ -357,9 +357,9 @@ footer{
 @media screen and (max-width: 480px) {
 
     * {
-    
         padding: 2% 0%;
     }
+
     header {
         height: 100%;
         width: 100%;
@@ -370,13 +370,13 @@ footer{
     }
 
     main{
-        height: 100%;
-        width: 100%;
+        width: auto;
+        height: auto;
     }
 
-    .text_area{
-        height: 100%;
-        width: 100%;
+    .text_area, .text_area2, .button_textarea2, .buttons, .button_copy{
+        width: 70%;
+        text-align: center;
     }
 
     .footer {
